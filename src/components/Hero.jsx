@@ -19,7 +19,7 @@ const Hero = () => {
 
           <div className="flex justify-between w-[100%] lg:w-[50%] lg:ml-[8em] ">
             <div className="flex flex-col gap-[1em] mt-[2em] items-center lg:items-start">
-              <p className="bg-white p-2 w-[55%] rounded-lg">
+              <p className="bg-white p-2 lg:w-[55%] rounded-lg">
                 👋 Welcome to TeamFlow
               </p>
               <div className="flex flex-col gap-[2em] items-center lg:items-start">
