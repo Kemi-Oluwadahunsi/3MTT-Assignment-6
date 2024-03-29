@@ -10,7 +10,7 @@ const FourthSection = () => {
           </div>
 
           <div className="flex flex-col lg:mt-[4em] gap-[1em] lg:w-[40%]">
-            <h2 className=" font-bold text-[2em]">24/7 Customer Support</h2>
+            <h2 className=" font-bold text-2xl lg:text-[2em]">24/7 Customer Support</h2>
             <hr className="w-[10%] bg-yellow-400 border-0 h-1" />
             <p>
               Our team is here to give you personalized support within the hour

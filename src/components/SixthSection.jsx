@@ -15,7 +15,7 @@ const SixthSection = () => {
             <img
               src={CircleDot}
               alt=""
-              className="absolute left-[3em] lg:left-[10em]"
+              className="absolute left-[3em] lg:left-[10em] hidden lg:block"
             />
             <img src={BrandImage} alt="" className="pt-7" />
           </div>
@@ -24,7 +24,7 @@ const SixthSection = () => {
             <img
               src={CircleDot}
               alt=""
-              className="absolute top-[55%] left-[74%]"
+              className="absolute top-[55%] left-[74%] hidden lg:block"
             />
             <button className="py-1 px-4 lg:py-3 lg:px-7 bg-yellow-400  lg:text-xl rounded-lg text-black text-bold">
               View All
