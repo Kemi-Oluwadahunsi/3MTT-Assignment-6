@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-background {
+  clip-path: polygon(0 0, 100% 0%, 74% 100%, 0% 100%);
+  background-color: #4b4aef;
+  height: 50em;
+  width: 70%;
+}
+
+@media screen and (max-width: 480px) {
+  .hero-background {
+    width: 100%;
+   -webkit-clip-path:none;
+   clip-path: none;
+   height: 30em;
+  }
+}
+
+.chat {
+  width: 30em;
+  height: fit-content;
+}
